@@ -20,7 +20,7 @@ class TreeViewController(private val jsonNode: JsonNode) {
     @FXML
     lateinit var treeTableView: TreeTableView<JsonData>
 
-    @SuppressWarnings("unused")
+    @Suppress("unused")
     fun initialize() {
         log.trace("start initialize")
         dataInitialize()
