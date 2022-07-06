@@ -20,6 +20,7 @@ class TreeViewController(private val jsonNode: JsonNode) {
     @FXML
     lateinit var treeTableView: TreeTableView<JsonData>
 
+    @SuppressWarnings("unused")
     fun initialize() {
         log.trace("start initialize")
         dataInitialize()
@@ -27,25 +28,25 @@ class TreeViewController(private val jsonNode: JsonNode) {
 
     private fun dataInitialize() {
 
-        var viewRoot = TreeItem(JsonData("/", "root", ""))
+        val viewRoot = TreeItem(JsonData("/", "root", ""))
         for (field in jsonNode.fields()) {
             createTreeItem(viewRoot.children, "/", field.key, field.value)
         }
-        var nameColumn = TreeTableColumn<JsonData, String>("name")
+        val nameColumn = TreeTableColumn<JsonData, String>("name")
         nameColumn.prefWidth = 150.0
         nameColumn.setCellValueFactory { param: TreeTableColumn.CellDataFeatures<JsonData, String?> ->
             ReadOnlyStringWrapper(
                 param.value.value.name
             )
         }
-        var valueColumn = TreeTableColumn<JsonData, String>("value")
+        val valueColumn = TreeTableColumn<JsonData, String>("value")
         valueColumn.prefWidth = 150.0
         valueColumn.setCellValueFactory { param: TreeTableColumn.CellDataFeatures<JsonData, String?> ->
             ReadOnlyStringWrapper(
                 param.value.value.value
             )
         }
-        var pathColumn = TreeTableColumn<JsonData, String>("value")
+        val pathColumn = TreeTableColumn<JsonData, String>("path")
         pathColumn.prefWidth = 150.0
         pathColumn.setCellValueFactory { param: TreeTableColumn.CellDataFeatures<JsonData, String?> ->
             ReadOnlyStringWrapper(

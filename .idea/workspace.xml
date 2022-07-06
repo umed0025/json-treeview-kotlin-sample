@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6b29a03-666b-459c-8b8d-c3f36b40d1e5" name="変更" comment="データ差し替え">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.json" afterDir="false" />
+    <list default="true" id="d6b29a03-666b-459c-8b8d-c3f36b40d1e5" name="変更" comment="typo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/jp/dkosilver/json/fx/SampleApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/jp/dkosilver/json/fx/SampleApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/save_data_slot01.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/jp/dkosilver/json/fx/TreeViewController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/jp/dkosilver/json/fx/TreeViewController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
     "project.structure.last.edited": "プロジェクト",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.26551723",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.externalResources"
   }
 }]]></component>
@@ -142,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657060543909</updated>
     </task>
+    <task id="LOCAL-00001" summary="データ差し替え">
+      <created>1657087696439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657087696439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,7 +165,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="データ差し替え" />
-    <option name="LAST_COMMIT_MESSAGE" value="データ差し替え" />
+    <MESSAGE value="typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
