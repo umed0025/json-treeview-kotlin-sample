@@ -9,9 +9,9 @@ import javafx.stage.Stage
 
 class SampleApplication : Application() {
     override fun start(stage: Stage) {
-        val url = TreeViewController::class.java.getResource("/save_data_slot01.dat")
+        val url = TreeViewController::class.java.getResource("/data.json")
         TreeViewController.log.info("url:{}", url)
-        var jsonNode: JsonNode = JsonMapper().readTree(url)
+        val jsonNode: JsonNode = JsonMapper().readTree(url)
 
         val fxmlLoader = FXMLLoader(SampleApplication::class.java.getResource("tree-view.fxml"))
         val controller = TreeViewController(jsonNode)

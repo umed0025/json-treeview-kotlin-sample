@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6b29a03-666b-459c-8b8d-c3f36b40d1e5" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/jp/dkosilver/json/fx/SampleApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/jp/dkosilver/json/fx/TreeViewController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jp/dkosilver/json/fx/tree-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/save_data_slot01.dat" afterDir="false" />
+    <list default="true" id="d6b29a03-666b-459c-8b8d-c3f36b40d1e5" name="変更" comment="データ差し替え">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/jp/dkosilver/json/fx/SampleApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/jp/dkosilver/json/fx/SampleApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/save_data_slot01.dat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "code.cleanup.on.save": "true",
-    "last_opened_file_path": "D:/vcs/sandbox/kotlin/json-treeview/src/main/kotlin/jp/dkosilver/json/fx/gson",
+    "last_opened_file_path": "D:/vcs/github/umed0025/json-treeview-kotlin-sample",
     "project.structure.last.edited": "プロジェクト",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.26551723",
@@ -73,7 +59,7 @@
       <recent name="D:\vcs\sandbox\kotlin\json-treeview\src\main\kotlin\jp\dkosilver\json\fx\gson" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.json-treeview [install]">
+  <component name="RunManager" selected="Kotlin.SampleApplicationKt">
     <configuration name="SampleApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jp.dkosilver.json.fx.SampleApplicationKt" />
       <module name="json-treeview" />
@@ -140,9 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SampleApplicationKt" />
         <item itemvalue="Maven.json-treeview [install]" />
         <item itemvalue="Maven.json-treeview [compile]" />
-        <item itemvalue="Kotlin.SampleApplicationKt" />
         <item itemvalue="Kotlin.SaveDataKt" />
       </list>
     </recent_temporary>
@@ -168,6 +154,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="データ差し替え" />
+    <option name="LAST_COMMIT_MESSAGE" value="データ差し替え" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
